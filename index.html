@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="mySidenav" class="sideNave">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <div class="div1">
+                <button class="button2" id="showTime" onclick="moveTime()">Show Time</button>
+                <button class="button3" id="heddenTime" onclick="moveTime2()">Hedden Time</button>
+            </div>
+            <p class="date" id="myClockDisplay" onload="showTime()"></p>
+        </div>
+    </div>
+    <button class="button1 " id="Openbtn" onclick="openNav()">open</button>
+    <script src="/JS/main.js"></script>
+</body>
+</html>
